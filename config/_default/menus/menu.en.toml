@@ -1,0 +1,55 @@
+[[main]]
+  name = "Home"
+  url = ""
+  weight = -110
+
+[[main]]
+  name = "Categories"
+  identifier = "Categories"
+  weight = -109
+[[main]]
+  parent = "Categories"
+  name = "Posts"
+  url = "posts/"
+[[main]]
+  parent = "Categories"
+  name = "Blogs"
+  url = "blogs/"
+[[main]]
+  parent = "Categories"
+  name = "Ideas"
+  url = "ideas/"
+
+# Submenus are done this way: parent -> identifier
+[[main]]
+  name = "Links"
+  identifier = "Links"
+  weight = -108
+[[main]]
+  parent = "Links"
+  name = "Gorillacell"
+  url = "https://gorillacell.kr/"
+[[main]]
+  parent = "Links"
+  name = "Others"
+  url = "#/"
+
+[[main]]
+  name = "About"
+  url = "about/"
+  weight = -107
+
+# social menu links
+[[social]]
+  name = "github"
+  type = "social"
+  weight = 1
+  url = "https://github.com/gbantique/"
+[[social]]
+  name = "youtube"
+  weight = 2
+  url = "https://youtube.com/c/techtotinker/"
+[[social]]
+  name = "facebook"
+  weight = 3
+  url = "https://www.facebook.com/gbantique/"

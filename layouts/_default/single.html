@@ -1,0 +1,120 @@
+{{- define "main" }}
+{{- $s := .Site.Params }}
+{{- $p := .Params }}
+{{- $scratch := newScratch }}
+{{- if isset $p "image" }}
+  {{- $scratch.Set "image" $p.image }}
+{{- else }}
+  {{ $scratch.Set "image" $s.fallBackOgImage }}
+{{- end }}
+{{- $image := $scratch.Get "image" }}
+{{- $bg := absLangURL (path.Join "images" $image) }}
+<div class="{{ if ne $p.singleColumn true }}grid-inverse {{ end }}wrap content">
+  <article class="post_content">
+    {{- $t := .Title }}
+    <h1 class="post_title">{{ $t | markdownify }}</h1>
+    {{- partial "post-meta" . }}
+    {{- with .Params.featureImage -}}
+      <div class="post_featured">
+        {{- partial "image" (dict "file" $p.featureImage "alt" $p.featureImageAlt "cap" $p.featureImageCap "type" "featured" "Page" $.Page) }}
+      </div>
+    {{- end -}}
+
+    <div class="post_body">
+      {{- .Content }}
+    </div>
+
+    {{- $showRelatedInArticle := true }}
+    {{- if eq $s.showRelatedInArticle false }}
+      {{- $showRelatedInArticle = false }}
+    {{- else if eq $p.showRelatedInArticle false }}
+      {{- $showRelatedInArticle = false }}
+    {{- end }}
+    {{- if ne $showRelatedInArticle false }}
+      {{- partial "related" . }}
+    {{- end }}
+
+
+    {{- $showComments := true }}
+    {{- if eq $s.comments false }}
+      {{- $showComments = false }}
+    {{- else if eq $p.comments false }}
+      {{- $showComments = false }}
+    {{- end }}
+    {{- if ne $showComments false }}
+      {{- partial "comments" . }}
+    {{- end }}
+
+    {{- partial "i18nlist" . }}
+
+  </article>
+  
+
+
+
+  {{- if ( ne $p.sidebar false ) }}
+    {{- partial "sidebar" . }}
+
+    {{ if $p.toc }}
+      <p></p>
+      <aside class="tableOfContentContainer" id="tableOfContentContainer">
+        <h3>Table of Contents</h3>
+          {{ .TableOfContents }}
+     </aside>
+    
+    {{ end }}
+
+  {{ end }}
+</div>
+
+<script>
+
+window.addEventListener('DOMContentLoaded', () => {
+  let topMostVisibleHeading = null; // Track the topmost visible heading
+
+  const observerForTableOfContentActiveState = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const id = entry.target.id;
+
+      if (entry.isIntersecting || entry.intersectionRatio > 0) {
+        const adjustedTop = entry.boundingClientRect.top - 200; // Subtract the fixed header height
+        if (!topMostVisibleHeading || adjustedTop < topMostVisibleHeading.boundingClientRect.top) {
+          topMostVisibleHeading = entry; // Update the topmost visible heading
+        }
+      }
+    });
+
+    if (topMostVisibleHeading) {
+      clearActiveStatesInTableOfContents();
+      const id = topMostVisibleHeading.target.id;
+      document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.add('active');
+    }
+  }, { threshold: 0.9, rootMargin: '-200px 0px 0px 0px' }); // Set the root margin to account for the fixed header
+
+  document.querySelectorAll('h1[id], h2[id], h3[id], h4[id]').forEach(section => {
+    observerForTableOfContentActiveState.observe(section);
+  });
+
+  document.querySelectorAll('nav li a').forEach(link => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault(); // Prevent the default jump behavior
+      const targetId = link.getAttribute('href').substring(1); // Get the target id from the href attribute
+      const targetElement = document.getElementById(targetId); // Get the target element
+      if (targetElement) {
+        window.scrollTo({ top: targetElement.offsetTop - 200, behavior: 'smooth' }); // Scroll to the target element with an offset
+      }
+    });
+  });
+});
+
+function clearActiveStatesInTableOfContents() {
+  document.querySelectorAll('nav li.active').forEach(section => {
+    section.classList.remove('active');
+  });
+}
+
+
+
+</script>
+
+{{- end }}
