@@ -13,7 +13,7 @@ tags:
   - microbit
   - max7219
   - 8x16 dot matrix display
-toc: true
+toc: false
 ---
 
 ## **Introduction**

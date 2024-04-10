@@ -6,13 +6,6 @@
 {{ $slug := index (last 1 (split (delimit (split .context.RelPermalink "/") "," "") ",")) 0 }}
 {{ $slug = cond (ne $slug "") $slug "___root___" }}
 
-{{ if eq $websiteId "gtoopIdQMZVcFE3L8tgbsD1R3" }}
-  <div style="color: #ff0000;">
-    <h1>Website id not configured!</h1>
-    <p>Please replace <code>gtoopIdQMZVcFE3L8tgbsD1R3</code> with the website id from Welcomments console.</p>
-  </div>
-{{ end }}
-
 <div id="welcomments__container" class="welcomments__container">
   {{ $allComments := dict }}
   {{ if isset .context.Site.Data.welcomments $slug }}
