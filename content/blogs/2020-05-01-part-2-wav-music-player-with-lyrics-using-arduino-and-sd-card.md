@@ -26,7 +26,7 @@ In my desire to tinker with the SD card, I come up with a plan to create a mini 
 
 ![](/images/WAV-Music-Player-Schematic.png)
 
-Two weeks ago, I am able to play wav files from SD card to a speaker (please see: [Part 1: Wav Music Player Using Arduino Uno and SD Card](https://tech-to-tinker.blogspot.com/2020/04/wav-music-player-using-arduino-uno-and.html)). Last night, I am finally able to sync the LRC lyrics file with the currently playing wav files.
+Two weeks ago, I am able to play wav files from SD card to a speaker (please see: [Part 1: Wav Music Player Using Arduino Uno and SD Card](https://techtotinker.com/2020/04/21/part-1-wav-music-player-using-arduino-uno-and-sd-card/)). Last night, I am finally able to sync the LRC lyrics file with the currently playing wav files.
 
 ## **Video Demonstration**
 

@@ -18,7 +18,7 @@ url: /2020/07/29/tutorial-how-to-use-keypad-text-entry-mode-arduino/
 
 In this article, I will discuss how we can use a matrix keypad for text entry purposes which is similar to T9 keypad used by Nokia and other bar phones.
 
-The circuit is the same as the previous tutorial. Be sure to check it out here: [4×4 Keypad Introduction](https://techtotinker.blogspot.com/2020/07/tutorial-how-to-use-4x4-keypad-arduino.html)
+The circuit is the same as the previous tutorial. Be sure to check it out here: [4×4 Keypad Introduction](https://techtotinker.com/2020/07/28/tutorial-how-to-use-4x4-keypad-arduino/)
 
 ## **Circuit Diagram**
 

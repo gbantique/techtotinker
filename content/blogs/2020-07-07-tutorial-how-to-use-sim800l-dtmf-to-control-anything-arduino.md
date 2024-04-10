@@ -199,7 +199,7 @@ void update_led()
 ```
 
 **This source code is for Ajit Zagade as requested**
-[![](https://1.bp.blogspot.com/-Anjp_dLhAPw/XxGS5x0ZVuI/AAAAAAAAB-M/WaQimIYk2M0EIurooaNHxduq3bsgNSisACLcBGAsYHQ/w512-h182/AjitSagade.png)](https://1.bp.blogspot.com/-Anjp_dLhAPw/XxGS5x0ZVuI/AAAAAAAAB-M/WaQimIYk2M0EIurooaNHxduq3bsgNSisACLcBGAsYHQ/s1600/AjitSagade.png)
+[![](/images/AjitSagade.png)](/images/AjitSagade.png)
 
 ```cpp { lineNos="true" wrap="true" }
 #include "SoftwareSerial.h"

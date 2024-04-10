@@ -53,7 +53,7 @@ Electronics projects nowadays usually needs a wireless communication interface. 
 
 ## **Call To Action**
 
-If you find this lesson useful, please kindly support my blogspot and Youtube channel. Links provided below:  
+If you find this lesson useful, please kindly visit my website and Youtube channel. Links provided below:  
 1. [techtotinker.com](https://techtotinker.com/)  
 2. [TechToTinker Youtube channel.](https://www.youtube.com/c/techtotinker)
 

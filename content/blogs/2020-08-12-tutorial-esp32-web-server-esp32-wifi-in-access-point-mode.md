@@ -19,7 +19,7 @@ url: /2020/08/12/tutorial-esp32-web-server-esp32-wifi-in-access-point-mode/
 
 Last time, I posted tutorial on how to use the ESP32 configured as WiFi Station. In order for us to control something in our web server, we need to connect to ESP32 and our device in the same Access Point or router. Now we will directly connect to our ESP32 Web Server by configuring it as WiFi Access Point.
 
-You might interested to view the previous tutorial: <https://techtotinker.blogspot.com/2020/08/tutorial-esp32-web-server-control.html>
+You might interested to view the previous tutorial: <https://techtotinker.com/2020/08/10/tutorial-esp32-web-server-control-something-through-esp32-wifi-in-station-mode/>
 
 ## **Circuit Diagram**
 

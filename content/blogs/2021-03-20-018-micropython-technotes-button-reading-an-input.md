@@ -28,7 +28,7 @@ In this article, we will learn on how to read an input device with ESP32 using M
 
 ## **Bill Of Materials**
 
-1. **ESP32 development board** flashed with MicroPython firmware. If your ESP32 has no MicroPython firmware, be sure to learn it from: https://techtotinker.blogspot.com/2021/01/001-micropython-technotes-get-started.html . The ESP32 will serve as the brain for this experiment.
+1. **ESP32 development board** flashed with MicroPython firmware. If your ESP32 has no MicroPython firmware, be sure to learn it from: https://techtotinker.com/2021/01/22/001-micropython-technotes-get-started-with-micropython/ . The ESP32 will serve as the brain for this experiment.
 2. **ESP32 shield** from GorillaCell ESP32 development kit which will extend the ESP32 pins to the pin headers for easy access and easy connection without confusion.
 3. **3-pin female-female dupont wires** which will connects the button modules to the ESP32 shield pin headers.
 4. **Button modules** which will serve as an input device.

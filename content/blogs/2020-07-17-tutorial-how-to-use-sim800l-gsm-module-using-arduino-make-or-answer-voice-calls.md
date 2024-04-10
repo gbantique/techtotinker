@@ -6,7 +6,7 @@ categories:
 date: '2020-07-17T20:57:00+08:00'
 series:
   - My Arduino Exploration
-title: 'Tutorial: How to use SIM800L GSM Module using Arduino | Make or Answer Voice Calls'
+title: 'How to use SIM800L GSM Module using Arduino | Make or Answer Voice Calls'
 url: /2020/07/17/tutorial-how-to-use-sim800l-gsm-module-using-arduino-make-or-answer-voice-calls/
 ---
 

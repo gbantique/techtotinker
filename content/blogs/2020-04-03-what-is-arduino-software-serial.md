@@ -26,7 +26,7 @@ Arduino Software Serial library basically mimics or copy the behavior of the har
 
 Please download the library then add it by clicking the Sketch &gt; Include Library &gt; Add ZIP Library and select the downloaded SoftwareSerial library.
 
-![](https://1.bp.blogspot.com/-WTmUQ9XBYJQ/XoakNoJendI/AAAAAAAAAEk/Gp3oAg-RDHMCTLbrbM2G6gqpCFl6stg4ACLcBGAsYHQ/s1600/AddingLibrary.png)
+![](/images/AddingLibrary.png)
 
 ## **Hardware Instruction**
 

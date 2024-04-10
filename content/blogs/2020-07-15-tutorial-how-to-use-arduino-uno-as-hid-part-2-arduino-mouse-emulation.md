@@ -18,7 +18,7 @@ url: /2020/07/15/tutorial-how-to-use-arduino-uno-as-hid-part-2-arduino-mouse-emu
 In this tutorial, we will explore the mouse emulation in Arduino Uno. This should be the part 2 in using the Arduino Uno as Human Interface Device.
 
 You may also want to visit the part 1 here:  
-[Tutorial: How to use Arduino Uno as HID | Arduino Keyboard Emulation](https://techtotinker.blogspot.com/2020/07/tutorial-how-to-use-arduino-uno-as-hid.html)
+[Tutorial: How to use Arduino Uno as HID | Arduino Keyboard Emulation](https://techtotinker.com/2020/07/14/tutorial-how-to-use-arduino-uno-as-hid-part-1-arduino-keyboard-emulation/)
 
 ## **Circuit Diagram**
 

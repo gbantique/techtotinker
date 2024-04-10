@@ -75,5 +75,5 @@ George Bantique | tech.to.tinker@gmail.com
 
 ## **References And Credits**
 
-1. [Part 2: DF Player Mini Tinkering with Arduino Nano](https://tech-to-tinker.blogspot.com/2020/02/part-2-df-player-mini-tinkering-with.html)
+1. [Part 2: DF Player Mini Tinkering with Arduino Nano](https://techtotinker.com/2020/02/12/part-2-df-player-mini-tinkering-with-arduino-nano/)
 

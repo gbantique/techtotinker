@@ -48,7 +48,6 @@ If you find this tutorial as helpful, please take time to share it so that it ca
 
 Please kindly support me by Subscribing to my Youtube channel: [Click this to SUBSCRIBE to TechToTinker](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)
 
-[](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)[](https://www.youtube.com/c/TechToTinker?sub_confirmation=1)  
 
 ## **Source Code**
 

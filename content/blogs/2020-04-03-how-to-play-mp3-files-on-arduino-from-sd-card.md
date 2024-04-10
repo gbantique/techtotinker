@@ -21,7 +21,7 @@ url: /2020/04/03/how-to-play-mp3-files-on-arduino-from-sd-card/
 
 ## **Introduction**
 
-After successfully accessing the SD Card with Arduino Uno the crude way (by soldering directly to SD card pins), I thought of making an mp3 player :). As a caveat, this design is not recommended for a daily mp3 player but it does play and I am happy with it. So let’s prepare the following materials:  
+After successfully accessing the SD Card with Arduino Uno the crude way (by soldering directly to SD card pins), I thought of making an mp3 player. As a caveat, this design is not recommended for a daily mp3 player but it does play and I am happy with it. So let’s prepare the following materials:  
 
 ## **Bill Of Materials**
 

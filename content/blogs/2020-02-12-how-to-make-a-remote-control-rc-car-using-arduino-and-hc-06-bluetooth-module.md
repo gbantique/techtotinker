@@ -200,7 +200,7 @@ void movehalt() {
 
 
 ## **Call To Action**
-If you find this lesson useful, please consider supporting my blogspot and Youtube channel:
+If you find this lesson useful, please consider visiting my website and Youtube channel:
 1. [https://techtotinker.com](https://techtotinker.com/)
 2. [techtotinker Youtube Channel](https://www.youtube.com/c/gbantique)
 

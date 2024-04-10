@@ -358,7 +358,7 @@ Thank you and have a good day. Happy tinkering!
 
 ## **References And Credits**
 
-1. [Part 2: DF Player Mini Tinkering with Arduino Nano](https://tech-to-tinker.blogspot.com/2020/02/part-2-df-player-mini-tinkering-with.html)
+1. [Part 2: DF Player Mini Tinkering with Arduino Nano](https://techtotinker.com/2020/02/12/part-2-df-player-mini-tinkering-with-arduino-nano/)
 
-2. [Part 1: DF Player Mini – a mini cheap mp3 player](https://tech-to-tinker.blogspot.com/2020/02/part-1-df-player-mini-mini-cheap-mp3.html)
+2. [Part 1: DF Player Mini – a mini cheap mp3 player](https://techtotinker.com/2020/02/12/part-1-df-player-mini-a-mini-cheap-mp3-player/)
 
