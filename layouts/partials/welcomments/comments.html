@@ -1,4 +1,5 @@
-{{ $apiUrl := (cond (ne (.apiUrl) nil) .apiUrl "https://welcomments.io/api") }}
+
+{{ $apiUrl := (cond (ne .apiUrl nil) .apiUrl "https://welcomments.io/api") }}
 {{ $websiteId := .websiteId }}
 {{ $slug := index (last 1 (split (delimit (split .context.RelPermalink "/") "," "") ",")) 0 }}
 {{ $slug = cond (ne $slug "") $slug "___root___" }}
