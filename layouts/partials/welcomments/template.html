@@ -7,8 +7,9 @@
   itemprop="comment" itemscope itemtype="https://schema.org/Comment">
   <div class="welcomments__comment-header">
     <div class="welcomments__author-avatar">
-      <img class="welcomments__author-avatar-img" {{ printf "src=\"%s\"" .avatarUrl | safeHTMLAttr }} alt="{{ .authorName }}"/>
+      <img class="welcomments__author-avatar-img" {{ printf "src=\"%s\"" .avatarUrl | safeHTMLAttr }} />
     </div>
+    
     <div class="welcomments__author-information">
       <div class="welcomments__author-name-and-time">
         <h3 class="welcomments__author-name" itemprop="author" itemscope itemtype="https://schema.org/Person">
