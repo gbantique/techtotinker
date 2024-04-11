@@ -55,15 +55,6 @@
   {{- if ( ne $p.sidebar false ) }}
     {{- partial "sidebar" . }}
 
-    {{ if $p.toc }}
-      <p></p>
-      <aside class="tableOfContentContainer" id="tableOfContentContainer">
-        <h3>Table of Contents</h3>
-          {{ .TableOfContents }}
-     </aside>
-    
-    {{ end }}
-
   {{ end }}
 </div>
 
