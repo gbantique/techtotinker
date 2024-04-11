@@ -5,7 +5,7 @@
   {{ $related := where .Site.RegularPages "Params.series" "intersect" $currentSeries }}
   {{ $related := where $related "Permalink" "!=" $currentPermalink }}
 
-  <h2 class="post_related">{{ T "series_posts" }}</h2>
+  <h2 class="post_related"><strong>{{ T "series_posts" }}</strong></h2>
   <ul>
     {{ range $related }}
       <li>

@@ -1,5 +1,5 @@
 
-<form id="welcomments__form" class="welcomments__comment-form" action="{{ .apiUrl }}/comments" method="post">
+<form id="welcomments__form" class="welcomments__comment-form" action="{{ .apiUrl }}/comments" method="post" onsubmit="showAlert()">
   <input type="hidden" name="website-id" id="website-id" value="{{ .websiteId }}"/>
   <input type="hidden" name="replying-to" id="replying-to"/>
   <input type="hidden" name="permalink" id="permalink" value="{{ .permalink }}"/>
@@ -24,4 +24,19 @@
   </div>
   <p class="welcomments__email-notice">Fill in your email address if you want to get notified when someone replies to your comment. Your email address is safely stored with strong 256-bit AES encryption. You can unsubscribe from notification emails any time by following a link on the bottom of a reply notification email.</p>
   <button type="submit" class="welcomments__submit-button" id="welcomments__submit-button">Send comment</button>
+  
 </form>
+
+<!-- Script to display the alert -->
+<script>
+  function showAlert() {
+    // Prevent the form from submitting
+    event.preventDefault();
+    
+    // Display the alert message
+    alert("Thank you for your comment! Please note that all comments are subject to approval before being published.");
+    
+    // Submit the form
+    document.getElementById('welcomments__form').submit();
+  }
+</script>

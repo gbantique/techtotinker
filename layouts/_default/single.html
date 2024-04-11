@@ -24,6 +24,8 @@
       {{- .Content }}
     </div>
 
+    <br>
+    <hr>
     {{- $showRelatedInArticle := true }}
     {{- if eq $s.showRelatedInArticle false }}
       {{- $showRelatedInArticle = false }}
@@ -34,7 +36,8 @@
       {{- partial "related" . }}
     {{- end }}
 
-
+    <br>
+    <hr>
     {{- $showComments := true }}
     {{- if eq $s.comments false }}
       {{- $showComments = false }}
