@@ -1,0 +1,9 @@
+{
+  "author": {
+    "name": "Hunter Sprague"
+  },
+  "date": "2024-04-29T19:43:10Z",
+  "id": "01HWNP3WZ6BYEV2MM6K7PZCEHK",
+  "message": "Are there any things that should be edited on the micropython code if you are trying to do this with two picos? does the address need to be changed on one of them from 1 to 0? also I am trying to accomplish this with a reyax rylr498, upon clicking run I get the shell out put:\n\nAddress set to : 1rn\n\nWhen I try to run lora.test() I get an error showing\n+ERR=1",
+  "message_html": "<p>Are there any things that should be edited on the micropython code if you are trying to do this with two picos? does the address need to be changed on one of them from 1 to 0? also I am trying to accomplish this with a reyax rylr498, upon clicking run I get the shell out put: </p><p>Address set to : 1rn </p><p>When I try to run lora.test() I get an error showing<br />+ERR=1</p>"
+}
