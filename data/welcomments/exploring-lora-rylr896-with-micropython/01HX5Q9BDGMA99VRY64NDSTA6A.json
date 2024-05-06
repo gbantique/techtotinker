@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "George Bantique"
+  },
+  "date": "2024-05-06T01:11:28Z",
+  "id": "01HX5Q9BDGMA99VRY64NDSTA6A",
+  "message": "Hi Hunter Sprague,\n\nPico 1:\nlora = RYLR896(1) # Sets the UART port to be use\nsleep_ms(100)\nlora.set_addr(1)  # Sets the LoRa address\n\nPico 2:\nlora = RYLR896(1) # Sets the UART port to be use\nsleep_ms(100)\nlora.set_addr(2)  # Sets the LoRa address",
+  "message_html": "<p>Hi Hunter Sprague,</p><p>Pico 1:<br />lora = RYLR896(1) # Sets the UART port to be use<br />sleep_ms(100)<br />lora.set_addr(1)  # Sets the LoRa address</p><p>Pico 2:<br />lora = RYLR896(1) # Sets the UART port to be use<br />sleep_ms(100)<br />lora.set_addr(2)  # Sets the LoRa address</p>",
+  "replying_to": "01HWNP3WZ6BYEV2MM6K7PZCEHK"
+}
